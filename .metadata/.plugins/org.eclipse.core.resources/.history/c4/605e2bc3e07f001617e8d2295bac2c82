@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+public class Ejercicio2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// Definir Scanner para la introduccion de valores
+		
+		Scanner sc=new Scanner(System.in);
+		
+		// Definir variable de Producto
+		
+		String varProducto;
+		
+		// Definir variable de Precio
+		
+		float varPrecio;
+		
+		// Definir variable de Cantidad
+		
+		float varCantidad;
+		
+		// Definir calculo
+		
+		float varCalculo;
+		
+		// Introducción de datos en las variables
+		
+		System.out.println("Introduce el Producto ");
+		varProducto=sc.nextLine();
+		System.out.print("Introduce el Precio ");
+		varPrecio=sc.nextFloat();
+		System.out.print("Introduce la Cantidad ");
+		varCantidad=sc.nextFloat();
+		
+		// Introducción del calculo
+		
+		varCalculo=(varCantidad*varPrecio);
+		
+		// Definición del programa
+		
+		System.out.print(varCantidad+" Kg de "+varProducto+" son "+varCalculo+" €");
+	}
+
+}

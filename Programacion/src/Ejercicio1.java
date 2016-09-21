@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Ejercicio1 {
 
 	public static void main(String[] args) {
+		
 		// TODO Auto-generated method stub
 		
 		// Número máximo de asignaturas de un alumno
@@ -31,8 +32,8 @@ public class Ejercicio1 {
 		
 		// Pedir las notas al usuario
 		
-		System.out.print("introduce nombre del alumno ");
-		nombre=sc.next();
+		System.out.print("Introduce nombre del alumno ");
+		nombre=sc.nextLine();
 		System.out.println("Introduce las siguientes Notas...");
 		System.out.print("Programación: ");
 		notaProg=sc.nextFloat();
@@ -54,7 +55,7 @@ public class Ejercicio1 {
 		
 		if(media<5)
 		System.out.println("A este paso llegarás a ser Presidente del Gobierno");	
-		else if(media>5 && media<7)
+		else if(media>=5 && media<=7)
 		System.out.print("Que bien huele a chuleta!!!");
 		else 
 		System.out.print("Con que has estado investigando...");

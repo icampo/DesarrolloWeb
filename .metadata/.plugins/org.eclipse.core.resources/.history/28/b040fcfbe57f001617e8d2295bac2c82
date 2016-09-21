@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+public class Ejercicio2 {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		
+		// Definir variable de Producto
+		
+		String varProducto;
+		
+		// Definir variable de Precio
+		
+		double varPrecio;
+		
+		// Definir variable de Cantidad
+		
+		double varCantidad;
+		
+		// Definir varTotal
+		
+		double varTotal;
+		
+		// Definir Scanner para leer en consola
+		
+		Scanner sc=new Scanner(System.in);
+		
+		// Introducción de datos en las variables
+		
+		// Leer producto
+		
+		System.out.print("Introduce el Producto ");
+		varProducto=sc.nextLine();
+		
+		// Leer Precio
+		
+		System.out.print("Introduce el Precio ");
+		varPrecio=sc.nextDouble();
+		
+		// Leer Cantidad
+		
+		System.out.print("Introduce la Cantidad ");
+		varCantidad=sc.nextDouble();
+		
+		// Introducción del calculo
+		
+		varTotal=(varPrecio*varCantidad);
+		
+		// Definición del programa
+		
+		System.out.print("Has comprado "+varCantidad+" Kg de "+varProducto+", "+varTotal+"€ a pagar!");
+	}
+}
