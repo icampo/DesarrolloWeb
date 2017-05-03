@@ -1,0 +1,3 @@
+Comer, false
+Dormir, false
+Beber, false

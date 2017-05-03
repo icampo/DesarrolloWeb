@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\Ion\DesarrolloWeb\Plantaciones"/>
+		<item value="C:\Users\IK012982I9\Downloads\AitorDev\Plantaciones"/>
+		<item value="F:\Grado Superior de Web\2º Curso\2.evaluacion repaso"/>
+		<item value="F:\Grado Superior de Web\2º Curso\jBikini"/>
+		<item value="D:\Ion\DesarrolloWeb\OOP_Herencia"/>
+		<item value="F:\Heroes"/>
+		<item value="F:\Grado Superior de Web\1º Curso\Progamacion\1ª Evaluación\Ejercicios"/>
 		<item value="D:\Ion\DesarrolloWeb\Programacion"/>
 		<item value="D:\Ion\DesarrolloWeb\Ejercicio1"/>
 	</list>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.wb.rcp.project.wizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wb"/>
+			<item value="org.eclipse.wb/org.eclipse.wb.rcp"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="381" key="DIALOG_X_ORIGIN"/>
+		<item value="80" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="579" key="DIALOG_HEIGHT"/>
+		<item value="429" key="DIALOG_X_ORIGIN"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+	</section>
 </section>
